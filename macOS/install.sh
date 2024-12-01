@@ -57,6 +57,6 @@ echo "\033[0m Manually import CyberpunkScarletProtocol.itermcolors theme into iT
 echo  "\033[0;32m Install SequelPro"
 echo "\033[0m Check if sequal pro version is latest, install it in the downloads folder"
 echo  "\033[0;32m Setting up VSCode and installing all extensions"
-echo "\033[0m set shell command: 'install ... then run\n cat ./configs/vscode/extensions.list |% { code --install-extension \$_}"
+echo "\033[0m set shell command: 'install ... then run\nxargs -n 1 code --install-extension < ./configs/vscode/extensions.list"
 echo  "\033[0;32m Create new ssh keys for github, etc"
 echo "\033[0m ssh-keygen -t ed25519 -C 'your_email@example.com'"
