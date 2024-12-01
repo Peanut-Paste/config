@@ -26,6 +26,9 @@ curl https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/sch
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+# Install go
+brew install go
+
 # Replace the newly generated .zshrc and use it
 cp -f ./configs/.zshrc ~/.zshrc
 source ~/.zshrc
@@ -44,6 +47,9 @@ brew install docker
 brew install docker-compose
 brew install colima
 brew install kubectl
+
+# Install Postman
+brew install --cask postman
 
 # Manual work
 echo "\033[0;32m Importing theme into iTerm2"
