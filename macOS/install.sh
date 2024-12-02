@@ -29,6 +29,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # Install go
 brew install go
 
+# Install gvm
+bash < <(curl -sSL https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+
 # Replace the newly generated .zshrc and use it
 cp -f ./configs/.zshrc ~/.zshrc
 source ~/.zshrc
