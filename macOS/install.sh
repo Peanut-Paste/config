@@ -33,6 +33,7 @@ brew install go
 bash < <(curl -sSL https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 
 # Replace the newly generated .zshrc and use it
+# TODO: remove relative path, get current file directory, navigate to configs
 cp -f ./configs/.zshrc ~/.zshrc
 source ~/.zshrc
 

@@ -30,7 +30,10 @@ xargs -n 1 code --install-extension < ./configs/vscode/extensions.list
 
 # installing go
 sudo curl -fsSL  https://go.dev/dl/go1.23.3.linux-amd64.tar.gz --output ./downloads/go1.23.3.linux-amd64.tar.gz
-sudo tar -C $HOME -xzf ./downloads/go1.23.3.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf ./downloads/go1.23.3.linux-amd64.tar.gz
+
+# TODO: remove relative path, get current file directory, navigate to configs
+cp -f ./configs/.zshrc ~/.zshrc
 
 # installing docker and docker-compose
 sudo apt-get update
