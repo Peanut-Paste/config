@@ -47,6 +47,5 @@
   "workbench.settings.applyToAllProfiles": [],
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "workbench.editor.enablePreview": false,
-  "files.insertFinalNewline": true,
-  "workbench.colorTheme": "One Dark Pro Darker"
+  "files.insertFinalNewline": true
 }
